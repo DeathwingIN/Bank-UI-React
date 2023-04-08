@@ -6,10 +6,7 @@ export default defineConfig({
   plugins: [react()],
 
   //Override Default Settings
-  server:{
-    host:'127.0.0.1',
-    port:8000
-  }
+  base: '/Bank-UI-React/'
 
    
 })
